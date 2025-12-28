@@ -39,13 +39,7 @@ Hebrew verdicts present unique NLP challenges regarding coreference resolution:
 | `num_defendants` | Total count of defendants in that case. |
 | `pred` | Prediction column (populated during inference). |
 
-**Example Row:**
 
-```csv
-case_file_name,text,defendants_str,pred,num_defendants
-40188-07-13,"הנאשמים הביעו בבית המשפט צער וחרטה על מעשיהם.",23,,3
-
-```
 
 ### Label Encoding
 
